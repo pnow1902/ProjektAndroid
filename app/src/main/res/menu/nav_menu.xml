@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/str_home" />
+    <item
+        android:id="@+id/nav_team"
+        android:icon="@drawable/ic_team"
+        android:title="@string/str_team" />
+    <item
+        android:id="@+id/nav_reserves"
+        android:icon="@drawable/ic_reserves"
+        android:title="@string/str_reserves" />
+    <item
+        android:id="@+id/nav_staff"
+        android:icon="@drawable/ic_staff"
+        android:title="@string/str_staff" />
+    <item
+        android:id="@+id/nav_training"
+        android:icon="@drawable/ic_training"
+        android:title="@string/str_training" />
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_contact"
+        android:title="@string/str_contact" />
+</menu>

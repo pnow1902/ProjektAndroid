@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FC Kozia Wólka</string>
+    <string name="app_name1">FC Kozia Wólka</string>
+    <string name="str_home">Strona główna</string>
+    <string name="str_team">Drużyna</string>
+    <string name="str_reserves">Rezerwy</string>
+    <string name="str_staff">Sztab szkoleniowy</string>
+    <string name="str_training">Treningi</string>
+    <string name="str_contact">Kontakt</string>
+</resources>
