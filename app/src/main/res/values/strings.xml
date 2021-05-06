@@ -7,4 +7,6 @@
     <string name="str_staff">Sztab szkoleniowy</string>
     <string name="str_training">Treningi</string>
     <string name="str_contact">Kontakt</string>
+    <string name="str_herb">Herb</string>
+    <string name="str_schedule">Terminarz</string>
 </resources>

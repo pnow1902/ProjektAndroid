@@ -37,6 +37,7 @@ class MainActivity: AppCompatActivity(), NavigationView.OnNavigationItemSelected
         fragmentTransaction.add(R.id.container_fragment, Home())
         fragmentTransaction.commit()
 
+
     }
 
 
@@ -91,4 +92,5 @@ class MainActivity: AppCompatActivity(), NavigationView.OnNavigationItemSelected
         drawerLayout.closeDrawer(GravityCompat.START)
         return true
     }
+
 }
