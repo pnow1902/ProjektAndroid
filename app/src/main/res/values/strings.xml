@@ -9,4 +9,14 @@
     <string name="str_contact">Kontakt</string>
     <string name="str_herb">Herb</string>
     <string name="str_schedule">Terminarz</string>
+    <string name="str_training_dojazd">Sprawdź dojazd</string>
+    <string name="str_training_day">Piątki 17:00 - 18:30</string>
+    <string name="str_training_day2">Środy 20:00 - 21:30</string>
+    <string name="str_training_day3">Poniedziałki 17:00 - 18:30</string>
+    <string name="str_training_message">Treningi odbywają się w:</string>
+    <string name="str_contact_name">Wpisz swoje imię</string>
+    <string name="str_contact_mail">Wpisz swój e-mail</string>
+    <string name="str_contact_message">Wpisz swoją wiadomość</string>
+    <string name="str_contact_button">Wyślij</string>
+    <string name="title_activity_map">Map</string>
 </resources>

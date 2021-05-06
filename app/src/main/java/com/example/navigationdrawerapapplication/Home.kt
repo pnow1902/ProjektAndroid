@@ -20,7 +20,7 @@ class Home : Fragment(), View.OnClickListener {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view: View = inflater!!.inflate(R.layout.fragment_home, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_home, container, false)
         val btn: Button = view.findViewById(R.id.button)
         btn.setOnClickListener(this)
         return view

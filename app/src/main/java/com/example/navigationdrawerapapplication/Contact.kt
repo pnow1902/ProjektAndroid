@@ -16,7 +16,7 @@ class Contact : Fragment(), View.OnClickListener {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view: View = inflater!!.inflate(R.layout.fragment_contact, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_contact, container, false)
         val btn2: Button = view.findViewById(R.id.button2)
         btn2.setOnClickListener(this)
         return view

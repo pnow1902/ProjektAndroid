@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Wpisz swoje imię"
+        android:hint="@string/str_contact_name"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:inputType="textPersonName"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="580dp"
         android:ems="10"
-        android:hint="Wpisz swój e-mail"
+        android:hint="@string/str_contact_mail"
         android:textColorHint="@color/white"
         android:inputType="textEmailAddress"
         android:textColor="@color/white"
@@ -45,7 +45,7 @@
         android:layout_height="196dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Wpisz swoją wiadomość"
+        android:hint="@string/str_contact_message"
         android:inputType="textMultiLine"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
@@ -60,14 +60,13 @@
         android:id="@+id/button2"
         android:layout_width="153dp"
         android:layout_height="95dp"
-        android:text="Wyślij"
+        android:text="@string/str_contact_button"
         android:textSize="30sp"
         app:backgroundTint="@color/material_on_background_emphasis_medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        app:layout_constraintVertical_bias="0.562" />
+        app:layout_constraintVertical_bias="0.231" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
