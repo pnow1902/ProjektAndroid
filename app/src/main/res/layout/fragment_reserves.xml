@@ -1,6 +1,567 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ImageButton
+            android:id="@+id/team_gk"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/gk"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/team_lb"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_gk" />
+
+
+        <ImageButton
+            android:id="@+id/team_rb"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_lb" />
+
+        <ImageButton
+            android:id="@+id/team_cb1"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_rb" />
+
+        <ImageButton
+            android:id="@+id/team_cb2"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_cb1" />
+
+        <ImageButton
+            android:id="@+id/team_cdm"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_cb2" />
+
+        <ImageButton
+            android:id="@+id/team_cm"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_cdm" />
+
+        <ImageButton
+            android:id="@+id/team_cam"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_cm" />
+
+        <ImageButton
+            android:id="@+id/team_lw"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_cam" />
+
+        <ImageButton
+            android:id="@+id/team_rw"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_lw" />
+
+        <ImageButton
+            android:id="@+id/team_st"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_rw" />
+
+        <ImageButton
+            android:id="@+id/team_res1"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_st" />
+
+        <ImageButton
+            android:id="@+id/team_res2"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_res1" />
+
+        <ImageButton
+            android:id="@+id/team_res3"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_res2" />
+
+        <ImageButton
+            android:id="@+id/team_res4"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_res3" />
+
+        <ImageButton
+            android:id="@+id/team_res5"
+            android:layout_width="127dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/team_res4" />
+
+
+        <TextView
+            android:id="@+id/text_gk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="40dp"
+            android:text="Bramkarz"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_gk"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_gk_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="Sebastian Łapacz"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_gk"
+            app:layout_constraintTop_toBottomOf="@+id/text_gk" />
+
+        <TextView
+            android:id="@+id/text_lb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Lewy obrońca"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_lb"
+            app:layout_constraintTop_toBottomOf="@+id/text_gk_name" />
+
+        <TextView
+            android:id="@+id/text_lb_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_lb"
+            app:layout_constraintTop_toBottomOf="@+id/text_lb" />
+
+        <TextView
+            android:id="@+id/text_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Prawy obrońca"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_rb"
+            app:layout_constraintTop_toBottomOf="@+id/text_lb_name" />
+
+        <TextView
+            android:id="@+id/text_rb_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_rb"
+            app:layout_constraintTop_toBottomOf="@+id/text_rb" />
+
+        <TextView
+            android:id="@+id/text_cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Środkowy obrońca"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cb1"
+            app:layout_constraintTop_toBottomOf="@+id/text_rb_name" />
+
+        <TextView
+            android:id="@+id/text_cb1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cb1"
+            app:layout_constraintTop_toBottomOf="@+id/text_cb1" />
+
+        <TextView
+            android:id="@+id/text_cb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Środkowy obrońca"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cb2"
+            app:layout_constraintTop_toBottomOf="@+id/text_cb1_name" />
+
+        <TextView
+            android:id="@+id/text_cb2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cb2"
+            app:layout_constraintTop_toBottomOf="@+id/text_cb2" />
+
+        <TextView
+            android:id="@+id/text_cdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Defensywny pomocnik"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cdm"
+            app:layout_constraintTop_toBottomOf="@+id/text_cb2_name" />
+
+        <TextView
+            android:id="@+id/text_cdm_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cdm"
+            app:layout_constraintTop_toBottomOf="@+id/text_cdm" />
+
+        <TextView
+            android:id="@+id/text_cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Środkowy pomocnik"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cm"
+            app:layout_constraintTop_toBottomOf="@+id/text_cdm_name" />
+
+        <TextView
+            android:id="@+id/text_cm_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cm"
+            app:layout_constraintTop_toBottomOf="@+id/text_cm" />
+
+        <TextView
+            android:id="@+id/text_cam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Ofensywny pomocnik"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cam"
+            app:layout_constraintTop_toBottomOf="@+id/text_cm_name" />
+
+        <TextView
+            android:id="@+id/text_cam_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_cam"
+            app:layout_constraintTop_toBottomOf="@+id/text_cam" />
+
+        <TextView
+            android:id="@+id/text_lw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Lewoskrzydłowy"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_lw"
+            app:layout_constraintTop_toBottomOf="@+id/text_cam_name" />
+
+        <TextView
+            android:id="@+id/text_lw_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_lw"
+            app:layout_constraintTop_toBottomOf="@+id/text_lw" />
+
+        <TextView
+            android:id="@+id/text_rw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Prawoskrzydłowy"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_rw"
+            app:layout_constraintTop_toBottomOf="@+id/text_lw_name" />
+
+        <TextView
+            android:id="@+id/text_rw_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_rw"
+            app:layout_constraintTop_toBottomOf="@+id/text_rw" />
+
+        <TextView
+            android:id="@+id/text_st"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Napastnik"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_st"
+            app:layout_constraintTop_toBottomOf="@+id/text_rw_name" />
+
+        <TextView
+            android:id="@+id/text_st_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_st"
+            app:layout_constraintTop_toBottomOf="@+id/text_st" />
+
+        <TextView
+            android:id="@+id/text_res1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Rezerwowy"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res1"
+            app:layout_constraintTop_toBottomOf="@+id/text_st_name" />
+
+        <TextView
+            android:id="@+id/text_res1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res1"
+            app:layout_constraintTop_toBottomOf="@+id/text_res1" />
+
+        <TextView
+            android:id="@+id/text_res2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Rezerwowy"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res2"
+            app:layout_constraintTop_toBottomOf="@+id/text_res1_name" />
+
+        <TextView
+            android:id="@+id/text_res2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res2"
+            app:layout_constraintTop_toBottomOf="@+id/text_res2" />
+
+        <TextView
+            android:id="@+id/text_res3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Rezerwowy"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res3"
+            app:layout_constraintTop_toBottomOf="@+id/text_res2_name" />
+
+        <TextView
+            android:id="@+id/text_res3_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res3"
+            app:layout_constraintTop_toBottomOf="@+id/text_res3" />
+
+        <TextView
+            android:id="@+id/text_res4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Rezerwowy"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res4"
+            app:layout_constraintTop_toBottomOf="@+id/text_res3_name" />
+
+        <TextView
+            android:id="@+id/text_res4_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res4"
+            app:layout_constraintTop_toBottomOf="@+id/text_res4" />
+
+        <TextView
+            android:id="@+id/text_res5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="81dp"
+            android:text="Rezerwowy"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res5"
+            app:layout_constraintTop_toBottomOf="@+id/text_res4_name" />
+
+        <TextView
+            android:id="@+id/text_res5_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/team_res5"
+            app:layout_constraintTop_toBottomOf="@+id/text_res5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

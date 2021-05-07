@@ -17,8 +17,8 @@ class Training : Fragment(), View.OnClickListener {
         savedInstanceState: Bundle?
     ): View? {
         val view: View = inflater.inflate(R.layout.fragment_training, container, false)
-        val btn: Button = view.findViewById(R.id.button3)
-        btn.setOnClickListener(this)
+        val btn3: Button = view.findViewById(R.id.button3)
+        btn3.setOnClickListener(this)
         return view
     }
     companion object {

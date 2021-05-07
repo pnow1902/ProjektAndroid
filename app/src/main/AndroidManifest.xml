@@ -42,6 +42,22 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".Schedulepdf" />
+        <activity android:name=".team.Gk" />
+        <activity android:name=".team.Cam" />
+        <activity android:name=".team.Cb1" />
+        <activity android:name=".team.Cb2" />
+        <activity android:name=".team.Cdm" />
+        <activity android:name=".team.Cm" />
+        <activity android:name=".team.Lb" />
+        <activity android:name=".team.Lw" />
+        <activity android:name=".team.Rb" />
+        <activity android:name=".team.Res1" />
+        <activity android:name=".team.Res2" />
+        <activity android:name=".team.Res3" />
+        <activity android:name=".team.Res4" />
+        <activity android:name=".team.Res5" />
+        <activity android:name=".team.Rw" />
+        <activity android:name=".team.St" />
     </application>
 
 </manifest>
