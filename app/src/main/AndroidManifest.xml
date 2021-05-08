@@ -58,6 +58,29 @@
         <activity android:name=".team.Res5" />
         <activity android:name=".team.Rw" />
         <activity android:name=".team.St" />
+        <activity android:name=".reserves.Gk" />
+        <activity android:name=".reserves.Cam" />
+        <activity android:name=".reserves.Cb1" />
+        <activity android:name=".reserves.Cb2" />
+        <activity android:name=".reserves.Cdm" />
+        <activity android:name=".reserves.Cm" />
+        <activity android:name=".reserves.Lb" />
+        <activity android:name=".reserves.Lw" />
+        <activity android:name=".reserves.Rb" />
+        <activity android:name=".reserves.Res1" />
+        <activity android:name=".reserves.Res2" />
+        <activity android:name=".reserves.Res3" />
+        <activity android:name=".reserves.Res4" />
+        <activity android:name=".reserves.Res5" />
+        <activity android:name=".reserves.Rw" />
+        <activity android:name=".reserves.St" />
+        <activity android:name=".staff.GeneralManager" />
+        <activity android:name=".staff.Coach" />
+        <activity android:name=".staff.AssistantCoach" />
+        <activity android:name=".staff.GoalkeeperCoach" />
+        <activity android:name=".staff.FitnessCoach" />
+        <activity android:name=".staff.Owner" />
+        <activity android:name=".staff.Physio" />
     </application>
 
 </manifest>

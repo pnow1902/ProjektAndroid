@@ -14,7 +14,7 @@
 
 
         <ImageButton
-            android:id="@+id/team_gk"
+            android:id="@+id/reserves_gk"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginStart="4dp"
@@ -25,7 +25,7 @@
 
 
         <ImageButton
-            android:id="@+id/team_lb"
+            android:id="@+id/reserves_lb"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
@@ -33,148 +33,148 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_gk" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_gk" />
 
 
         <ImageButton
-            android:id="@+id/team_rb"
+            android:id="@+id/reserves_rb"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_lb" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_lb" />
 
         <ImageButton
-            android:id="@+id/team_cb1"
+            android:id="@+id/reserves_cb1"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_rb" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_rb" />
 
         <ImageButton
-            android:id="@+id/team_cb2"
+            android:id="@+id/reserves_cb2"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_cb1" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_cb1" />
 
         <ImageButton
-            android:id="@+id/team_cdm"
+            android:id="@+id/reserves_cdm"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_cb2" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_cb2" />
 
         <ImageButton
-            android:id="@+id/team_cm"
+            android:id="@+id/reserves_cm"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_cdm" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_cdm" />
 
         <ImageButton
-            android:id="@+id/team_cam"
+            android:id="@+id/reserves_cam"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_cm" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_cm" />
 
         <ImageButton
-            android:id="@+id/team_lw"
+            android:id="@+id/reserves_lw"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_cam" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_cam" />
 
         <ImageButton
-            android:id="@+id/team_rw"
+            android:id="@+id/reserves_rw"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_lw" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_lw" />
 
         <ImageButton
-            android:id="@+id/team_st"
+            android:id="@+id/reserves_st"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_rw" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_rw" />
 
         <ImageButton
-            android:id="@+id/team_res1"
+            android:id="@+id/reserves_res1"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_st" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_st" />
 
         <ImageButton
-            android:id="@+id/team_res2"
+            android:id="@+id/reserves_res2"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_res1" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_res1" />
 
         <ImageButton
-            android:id="@+id/team_res3"
+            android:id="@+id/reserves_res3"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_res2" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_res2" />
 
         <ImageButton
-            android:id="@+id/team_res4"
+            android:id="@+id/reserves_res4"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_res3" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_res3" />
 
         <ImageButton
-            android:id="@+id/team_res5"
+            android:id="@+id/reserves_res5"
             android:layout_width="127dp"
             android:layout_height="120dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.014"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_res4" />
+            app:layout_constraintTop_toBottomOf="@+id/reserves_res4" />
 
 
         <TextView
@@ -186,7 +186,7 @@
             android:layout_marginTop="40dp"
             android:text="Bramkarz"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_gk"
+            app:layout_constraintStart_toEndOf="@+id/reserves_gk"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -198,7 +198,7 @@
             android:layout_marginTop="10dp"
             android:text="Sebastian Łapacz"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_gk"
+            app:layout_constraintStart_toEndOf="@+id/reserves_gk"
             app:layout_constraintTop_toBottomOf="@+id/text_gk" />
 
         <TextView
@@ -210,7 +210,7 @@
             android:layout_marginTop="81dp"
             android:text="Lewy obrońca"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_lb"
+            app:layout_constraintStart_toEndOf="@+id/reserves_lb"
             app:layout_constraintTop_toBottomOf="@+id/text_gk_name" />
 
         <TextView
@@ -222,7 +222,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_lb"
+            app:layout_constraintStart_toEndOf="@+id/reserves_lb"
             app:layout_constraintTop_toBottomOf="@+id/text_lb" />
 
         <TextView
@@ -234,7 +234,7 @@
             android:layout_marginTop="81dp"
             android:text="Prawy obrońca"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_rb"
+            app:layout_constraintStart_toEndOf="@+id/reserves_rb"
             app:layout_constraintTop_toBottomOf="@+id/text_lb_name" />
 
         <TextView
@@ -246,7 +246,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_rb"
+            app:layout_constraintStart_toEndOf="@+id/reserves_rb"
             app:layout_constraintTop_toBottomOf="@+id/text_rb" />
 
         <TextView
@@ -258,7 +258,7 @@
             android:layout_marginTop="81dp"
             android:text="Środkowy obrońca"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cb1"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cb1"
             app:layout_constraintTop_toBottomOf="@+id/text_rb_name" />
 
         <TextView
@@ -270,7 +270,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cb1"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cb1"
             app:layout_constraintTop_toBottomOf="@+id/text_cb1" />
 
         <TextView
@@ -282,7 +282,7 @@
             android:layout_marginTop="81dp"
             android:text="Środkowy obrońca"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cb2"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cb2"
             app:layout_constraintTop_toBottomOf="@+id/text_cb1_name" />
 
         <TextView
@@ -294,7 +294,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cb2"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cb2"
             app:layout_constraintTop_toBottomOf="@+id/text_cb2" />
 
         <TextView
@@ -306,7 +306,7 @@
             android:layout_marginTop="81dp"
             android:text="Defensywny pomocnik"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cdm"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cdm"
             app:layout_constraintTop_toBottomOf="@+id/text_cb2_name" />
 
         <TextView
@@ -318,7 +318,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cdm"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cdm"
             app:layout_constraintTop_toBottomOf="@+id/text_cdm" />
 
         <TextView
@@ -330,7 +330,7 @@
             android:layout_marginTop="81dp"
             android:text="Środkowy pomocnik"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cm"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cm"
             app:layout_constraintTop_toBottomOf="@+id/text_cdm_name" />
 
         <TextView
@@ -342,7 +342,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cm"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cm"
             app:layout_constraintTop_toBottomOf="@+id/text_cm" />
 
         <TextView
@@ -354,7 +354,7 @@
             android:layout_marginTop="81dp"
             android:text="Ofensywny pomocnik"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cam"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cam"
             app:layout_constraintTop_toBottomOf="@+id/text_cm_name" />
 
         <TextView
@@ -366,7 +366,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_cam"
+            app:layout_constraintStart_toEndOf="@+id/reserves_cam"
             app:layout_constraintTop_toBottomOf="@+id/text_cam" />
 
         <TextView
@@ -378,7 +378,7 @@
             android:layout_marginTop="81dp"
             android:text="Lewoskrzydłowy"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_lw"
+            app:layout_constraintStart_toEndOf="@+id/reserves_lw"
             app:layout_constraintTop_toBottomOf="@+id/text_cam_name" />
 
         <TextView
@@ -390,7 +390,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_lw"
+            app:layout_constraintStart_toEndOf="@+id/reserves_lw"
             app:layout_constraintTop_toBottomOf="@+id/text_lw" />
 
         <TextView
@@ -402,7 +402,7 @@
             android:layout_marginTop="81dp"
             android:text="Prawoskrzydłowy"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_rw"
+            app:layout_constraintStart_toEndOf="@+id/reserves_rw"
             app:layout_constraintTop_toBottomOf="@+id/text_lw_name" />
 
         <TextView
@@ -414,7 +414,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_rw"
+            app:layout_constraintStart_toEndOf="@+id/reserves_rw"
             app:layout_constraintTop_toBottomOf="@+id/text_rw" />
 
         <TextView
@@ -426,7 +426,7 @@
             android:layout_marginTop="81dp"
             android:text="Napastnik"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_st"
+            app:layout_constraintStart_toEndOf="@+id/reserves_st"
             app:layout_constraintTop_toBottomOf="@+id/text_rw_name" />
 
         <TextView
@@ -438,7 +438,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_st"
+            app:layout_constraintStart_toEndOf="@+id/reserves_st"
             app:layout_constraintTop_toBottomOf="@+id/text_st" />
 
         <TextView
@@ -450,7 +450,7 @@
             android:layout_marginTop="81dp"
             android:text="Rezerwowy"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res1"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res1"
             app:layout_constraintTop_toBottomOf="@+id/text_st_name" />
 
         <TextView
@@ -462,7 +462,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res1"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res1"
             app:layout_constraintTop_toBottomOf="@+id/text_res1" />
 
         <TextView
@@ -474,7 +474,7 @@
             android:layout_marginTop="81dp"
             android:text="Rezerwowy"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res2"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res2"
             app:layout_constraintTop_toBottomOf="@+id/text_res1_name" />
 
         <TextView
@@ -486,7 +486,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res2"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res2"
             app:layout_constraintTop_toBottomOf="@+id/text_res2" />
 
         <TextView
@@ -498,7 +498,7 @@
             android:layout_marginTop="81dp"
             android:text="Rezerwowy"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res3"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res3"
             app:layout_constraintTop_toBottomOf="@+id/text_res2_name" />
 
         <TextView
@@ -510,7 +510,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res3"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res3"
             app:layout_constraintTop_toBottomOf="@+id/text_res3" />
 
         <TextView
@@ -522,7 +522,7 @@
             android:layout_marginTop="81dp"
             android:text="Rezerwowy"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res4"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res4"
             app:layout_constraintTop_toBottomOf="@+id/text_res3_name" />
 
         <TextView
@@ -534,7 +534,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res4"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res4"
             app:layout_constraintTop_toBottomOf="@+id/text_res4" />
 
         <TextView
@@ -546,7 +546,7 @@
             android:layout_marginTop="81dp"
             android:text="Rezerwowy"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res5"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res5"
             app:layout_constraintTop_toBottomOf="@+id/text_res4_name" />
 
         <TextView
@@ -558,7 +558,7 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@+id/team_res5"
+            app:layout_constraintStart_toEndOf="@+id/reserves_res5"
             app:layout_constraintTop_toBottomOf="@+id/text_res5" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
