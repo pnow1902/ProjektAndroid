@@ -3,7 +3,6 @@ package com.example.navigationdrawerapapplication
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -45,42 +44,37 @@ class MainActivity: AppCompatActivity(), NavigationView.OnNavigationItemSelected
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_home -> {
-                Toast.makeText(this, "Home clicked", Toast.LENGTH_SHORT).show()
+
                 val fragmentManager = supportFragmentManager
                 fragmentTransaction = fragmentManager.beginTransaction()
                 fragmentTransaction.replace(R.id.container_fragment, Home())
                 fragmentTransaction.commit()
             }
             R.id.nav_team -> {
-                Toast.makeText(this, "Team clicked", Toast.LENGTH_SHORT).show()
                 val fragmentManager = supportFragmentManager
                 fragmentTransaction = fragmentManager.beginTransaction()
                 fragmentTransaction.replace(R.id.container_fragment, Team())
                 fragmentTransaction.commit()
             }
             R.id.nav_reserves -> {
-                Toast.makeText(this, "Reserves clicked", Toast.LENGTH_SHORT).show()
                 val fragmentManager = supportFragmentManager
                 fragmentTransaction = fragmentManager.beginTransaction()
                 fragmentTransaction.replace(R.id.container_fragment, Reserves())
                 fragmentTransaction.commit()
             }
             R.id.nav_staff -> {
-                Toast.makeText(this, "Staff clicked", Toast.LENGTH_SHORT).show()
                 val fragmentManager = supportFragmentManager
                 fragmentTransaction = fragmentManager.beginTransaction()
                 fragmentTransaction.replace(R.id.container_fragment, Staff())
                 fragmentTransaction.commit()
             }
             R.id.nav_training -> {
-                Toast.makeText(this, "Training clicked", Toast.LENGTH_SHORT).show()
                 val fragmentManager = supportFragmentManager
                 fragmentTransaction = fragmentManager.beginTransaction()
                 fragmentTransaction.replace(R.id.container_fragment, Training())
                 fragmentTransaction.commit()
             }
             R.id.nav_contact -> {
-                Toast.makeText(this, "Contact clicked", Toast.LENGTH_SHORT).show()
                 val fragmentManager = supportFragmentManager
                 fragmentTransaction = fragmentManager.beginTransaction()
                 fragmentTransaction.replace(R.id.container_fragment, Contact())
