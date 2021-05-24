@@ -33,7 +33,6 @@ class Contact : Fragment(), View.OnClickListener {
         when (v?.id) {
             R.id.button2 -> {
                 sendMail()
-                Toast.makeText(activity, "Twoja wiadomość Została wysłana. Dziękujemy za kontakt.", Toast.LENGTH_LONG).show()
             }
 
             else -> {
